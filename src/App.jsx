@@ -1,12 +1,12 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import { Navbar } from "./components";
+import { Home } from "./pages";
 
 function App() {
   return (
     <React.Fragment>
       <Routes>
-        <Route path="" element={<Navbar />} />
+        <Route path="" element={<Home />} />
       </Routes>
     </React.Fragment>
   );
