@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className="grid grid-cols-1 gap-6 md:grid-cols-2">
       <div>
-        <h1 className="text-3xl font-extrabold mt-6 leading-tight text-center px-2 md:mt-10 md:text-4xl md:text-left md:px-0 lg:text-6xl lg:leading-tight lg:text-left">
+        <h1 className="text-3xl font-black mt-6 leading-tight text-center px-2 md:mt-10 md:text-4xl md:text-left md:px-0 lg:text-6xl lg:leading-tight lg:text-left">
           Level Up Your Ride. The{" "}
           <span className="text-primary">Ultimate Online</span> Auto Repair
           Workshop.
@@ -18,7 +18,7 @@ const Hero = () => {
           trustworthy service providers and let us streamline the process for
           you.
         </p>
-        <div className="flex flex-col items-center justify-center gap-6 my-6 md:justify-start md:flex-row">
+        <div className="flex flex-col items-center justify-center gap-4 my-6 md:justify-start md:flex-row md:gap-6">
           <button className="flex flex-wrap items-center gap-2 bg-black text-white py-3 px-4 rounded-md">
             <LogoGooglePlaystore color="#fff" />
             <p className="font-bold"> Get it on Google Play</p>
