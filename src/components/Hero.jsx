@@ -18,7 +18,7 @@ const Hero = () => {
           trustworthy service providers and let us streamline the process for
           you.
         </p>
-        <div className="flex flex-col items-center justify-center gap-2 my-6 md:justify-start md:flex-row">
+        <div className="flex flex-col items-center justify-center gap-6 my-6 md:justify-start md:flex-row">
           <button className="flex flex-wrap items-center gap-2 bg-black text-white py-3 px-4 rounded-md">
             <LogoGooglePlaystore color="#fff" />
             <p className="font-bold"> Get it on Google Play</p>
