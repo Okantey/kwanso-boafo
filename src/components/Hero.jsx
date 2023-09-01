@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className="grid grid-cols-1 gap-6 md:grid-cols-2">
       <div>
-        <h1 className="text-3xl font-extrabold mt-10 leading-tight text-center px-2 md:text-4xl md:text-left md:px-0 lg:text-6xl lg:leading-tight lg:text-left">
+        <h1 className="text-3xl font-extrabold mt-6 leading-tight text-center px-2 md:mt-10 md:text-4xl md:text-left md:px-0 lg:text-6xl lg:leading-tight lg:text-left">
           Level Up Your Ride. The{" "}
           <span className="text-primary">Ultimate Online</span> Auto Repair
           Workshop.
