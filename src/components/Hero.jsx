@@ -3,9 +3,9 @@ import { LogoAppleAppstore, LogoGooglePlaystore } from "react-ionicons";
 
 const Hero = () => {
   return (
-    <div className="lg:grid grid-cols-2 gap-8">
+    <section className="grid grid-cols-1 gap-6 md:grid-cols-2">
       <div>
-        <h1 className="text-6xl font-extrabold mt-16 leading-tight">
+        <h1 className="text-3xl font-extrabold mt-10 leading-tight text-center px-5 md:text-4xl md:text-left md:px-0 lg:text-6xl lg:leading-tight lg:text-left">
           Level Up Your Ride. The{" "}
           <span className="text-primary">Ultimate Online</span> Auto Repair
           Workshop.
@@ -18,7 +18,7 @@ const Hero = () => {
           trustworthy service providers and let us streamline the process for
           you.
         </p>
-        <div className="flex items-center gap-2 my-6">
+        <div className="flex items-center justify-center gap-2 my-6 lg:justify-start">
           <button className="flex items-center gap-2 bg-black text-white py-3 px-4 rounded-md">
             <LogoGooglePlaystore color="#fff" />
             <p className="font-bold"> Get it on Google Play</p>
@@ -36,7 +36,7 @@ const Hero = () => {
           className="w-full rounded-2xl mix-blend-darken"
         />
       </div>
-    </div>
+    </section>
   );
 };
 
