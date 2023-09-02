@@ -3,7 +3,7 @@ import { LogoAppleAppstore, LogoGooglePlaystore } from "react-ionicons";
 
 const Hero = () => {
   return (
-    <section className="grid grid-cols-1 gap-6 md:grid-cols-2">
+    <section className="grid grid-cols-1 gap-6 lg:grid-cols-2">
       <div>
         <h1 className="text-3xl font-black mt-6 leading-tight text-center px-2 md:mt-10 md:text-4xl md:text-left md:px-0 lg:text-6xl lg:leading-tight lg:text-left">
           Level Up Your Ride. The{" "}
