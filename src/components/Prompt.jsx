@@ -2,9 +2,9 @@ import React from "react";
 
 const Prompt = () => {
   return (
-    <section className="bg-primary w-full flex justify-between items-center gap-4 px-6 py-2 my-6 rounded-lg shadow-lg md:p-4">
-      <div className="flex flex-[30%]">
-        <h2 className="text-white font-bold text-center md:text-left">
+    <section className="bg-primary w-full m-auto flex justify-between items-center gap-4 px-6 py-3 my-6 rounded-lg shadow-lg md:p-4 md:w-[75%]">
+      <div className="hidden flex-[30%] md:flex">
+        <h2 className="text-white font-bold text-center hidden md:text-left md:flex">
           Let's go!, enter your email to sign up
         </h2>
       </div>
