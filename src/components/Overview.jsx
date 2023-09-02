@@ -11,7 +11,7 @@ const Overview = () => {
           your user account. when approved you may start requesting mechanics.
         </p>
       </div>
-      <div className="w-[90%] m-auto">
+      <div className="w-[70%] m-auto">
         <img
           src={overview}
           alt="overview"
