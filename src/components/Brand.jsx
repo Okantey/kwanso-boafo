@@ -1,10 +1,11 @@
 import React from "react";
+import logo from "../assets/K.png";
 
 const Brand = () => {
   return (
-    <h1 className="text-2xl text-primary font-extrabold md:text-3xl">
-      KwansoBoafo.
-    </h1>
+    <div>
+      <img src={logo} alt="logo" className="w-28" />
+    </div>
   );
 };
 

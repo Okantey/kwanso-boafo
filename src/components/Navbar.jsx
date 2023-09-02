@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center mt-2 mb-4 ">
+    <nav className="flex justify-between items-center ">
       <Brand />
       <div className="hidden md:flex md:items-center md:gap-6">
         <Link className="text-base hover:text-primary">Home</Link>

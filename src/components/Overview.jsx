@@ -1,4 +1,5 @@
 import React from "react";
+import overview from "../assets/steps.png";
 
 const Overview = () => {
   return (
@@ -9,6 +10,13 @@ const Overview = () => {
           Download and install the tere app. Enter your phone number and make
           your user account. when approved you may start requesting mechanics.
         </p>
+      </div>
+      <div className="w-[90%] m-auto">
+        <img
+          src={overview}
+          alt="overview"
+          className="w-full mix-blend-darken"
+        />
       </div>
     </div>
   );
