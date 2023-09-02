@@ -4,7 +4,7 @@ import logo from "../assets/K.png";
 const Brand = () => {
   return (
     <div>
-      <img src={logo} alt="logo" className="w-28" />
+      <img src={logo} alt="logo" className="w-20" />
     </div>
   );
 };
