@@ -5,20 +5,11 @@
 @tailwind utilities;
 
 :root {
-  font-family: "Lato", sans-serif;
+  font-family: "Cabin", sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   background-color: whitesmoke;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Cabin", sans-serif;
 }
