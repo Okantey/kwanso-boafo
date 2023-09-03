@@ -11,6 +11,7 @@ const Navbar = () => {
         <Link className="text-base hover:text-primary">Home</Link>
         <Link className="text-base hover:text-primary">Service Provider</Link>
         <Link className="text-base hover:text-primary">About Us</Link>
+        <Link className="text-base hover:text-primary">Contact</Link>
         <Link>
           <Button title="Login" />
         </Link>
