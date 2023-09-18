@@ -1,15 +1,25 @@
 import React from "react";
-import { Navbar, Hero, Prompt, Overview, Benefits } from "../components";
+import {
+  Navbar,
+  Hero,
+  Prompt,
+  Overview,
+  Benefits,
+  Footer,
+} from "../components";
 
 const Home = () => {
   return (
-    <div className="container px-[2%]">
-      <Navbar />
-      <Hero />
-      <Prompt />
-      <Overview />
-      <Benefits />
-    </div>
+    <React.Fragment>
+      <div className="container px-[2%] md:px-0">
+        <Navbar />
+        <Hero />
+        <Prompt />
+        <Overview />
+        <Benefits />
+      </div>
+      <Footer />
+    </React.Fragment>
   );
 };
 

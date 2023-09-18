@@ -1,5 +1,5 @@
 import React from "react";
-import { LogoAppleAppstore, LogoGooglePlaystore } from "react-ionicons";
+import Download from "./Download";
 
 const Hero = () => {
   return (
@@ -18,15 +18,8 @@ const Hero = () => {
           trustworthy service providers and let us streamline the process for
           you.
         </p>
-        <div className="flex flex-col items-center justify-center gap-4 my-6 md:justify-start md:flex-row md:gap-6">
-          <button className="flex flex-wrap items-center gap-2 bg-black text-white py-3 px-4 rounded-md">
-            <LogoGooglePlaystore color="#fff" />
-            <p className="font-bold"> Get it on Google Play</p>
-          </button>
-          <button className="flex items-center gap-2 bg-black text-white py-3 px-4 rounded-md">
-            <LogoAppleAppstore color="#fff" />
-            <p className="font-bold">Download on the App Store</p>
-          </button>
+        <div className="flex flex-col items-center justify-center gap-4 md:justify-start md:flex-row md:gap-6">
+          <Download buttonColor="black" iconColor="white" />/
         </div>
       </div>
       <div className="w-full">
