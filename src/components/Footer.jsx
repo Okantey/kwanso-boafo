@@ -6,7 +6,7 @@ import Download from "./Download";
 const Footer = () => {
   return (
     <footer className=" bg-black">
-      <div className="container md:grid md:grid-cols-4 md:place-items-center">
+      <div className="container grid-cols-1 gap-6 md:grid md:grid-cols-4 md:place-items-center">
         <div className="w-full">
           <img src={logo} alt="logo" className="md:w-full" />
         </div>
