@@ -10,7 +10,7 @@ const Hero = () => {
           <span className="text-primary">Ultimate Online</span> Auto Repair
           Workshop.
         </h1>
-        <p className="my-4 text-gray text-center px-4 sm:px-0 md:text-left">
+        <p className="my-4 text-gray text-center px-4 sm:px-0 sm:text-left">
           Finding reliable mechanics and repairers for your vehicle just got
           easier with Kwansoboafo. Our app(web/mobile) is designed to connect
           you with skilled professionals who can efficiently handle all your

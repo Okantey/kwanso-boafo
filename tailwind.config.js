@@ -11,6 +11,7 @@ module.exports = {
       "footer-texture": "url('/img/footer-texture.png')",
     },
     extend: {
+
       colors: {
         primary: "#A14189",
         gray: "#9C9C9C",
