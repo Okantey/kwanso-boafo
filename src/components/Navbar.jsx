@@ -12,7 +12,7 @@ const Navbar = () => {
         <Link className="text-base hover:text-primary">Service Provider</Link>
         <Link className="text-base hover:text-primary">About Us</Link>
         <Link className="text-base hover:text-primary">Contact</Link>
-        <Link>
+        <Link to="/login">
           <Button title="Login" />
         </Link>
       </div>
